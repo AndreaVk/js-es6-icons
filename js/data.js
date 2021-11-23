@@ -122,13 +122,13 @@ function costruzioneCard() {
 }
 
 //========creazione card dinamica 
-function addCard(iCard) {
+function addCard(dCard) {
 	const container = document.getElementById('container');
 	container.innerHTML +=
 		`
         <div class="card">
-            <i class="${(iCard.family + ' ' + iCard.prefix + iCard.name)}" style= "color: ${iCard.color}"></i>
-            <span>${iCard.name}</span>
+            <i class="${(dCard.family + ' ' + dCard.prefix + dCard.name)}" style= "color: ${dCard.color}"></i>
+            <span>${dCard.name}</span>
         </div> 
 		`
 
